@@ -9,7 +9,7 @@ How to do so, the easy H/s boost on Vega is to lower the watt draw first which i
 so this is goal #1 if you don't have a V56 is to get the V56 Bios and flash into it (Do so at your own risk)
 
 
-Step #2 another easy 3-4% efficiency tweak is to "optimiz"e the memory a little bit, which can be done by a technique I called foreplay
+Step #2 another easy 3-4% efficiency tweak (on V56/V64) is to "optimiz"e the memory a little bit, which can be done by a technique I called foreplay
 How it's done, first you initialize a foreplay miner for 15s to warm up the HBM for the miner, it can be done using one of the two options
 
 
@@ -18,14 +18,14 @@ A) Easy, use Cast-xmr --maxmem option to mine for 30 seconds at your pool of cho
 
 B) Medium, use a diffrent Heavy amd mining config calld warm.txt with the following threads for warm (V56 & V64)
 
-{ "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 16, "comp_mode" : true },
+{ "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 16, "comp_mode" : true },  
 { "index" : 0, "intensity" : 960, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 16, "comp_mode" : true },
-
-or 
-
-
-{ "index" : 0, "intensity" : 960, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 16, "comp_mode" : true },
-{ "index" : 0, "intensity" : 960, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 16, "comp_mode" : true },
+  
+(For Rare Cases)
+  
+  
+{ "index" : 0, "intensity" : 960, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 16, "comp_mode" : true },    
+{ "index" : 0, "intensity" : 960, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 16, "comp_mode" : true },  
 
 If it gives better results optimizations for the latter
 
