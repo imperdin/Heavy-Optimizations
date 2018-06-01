@@ -95,5 +95,5 @@ to cover most of the optimization that the "Secret Optimizers" have already done
 
 
 Optional,
-I have a [PoC for a watchdog](https://github.com/imperdin/Auto-Restart-Rig) I made that is really reliable and managed my rigs 24/7 without failing
+I have a [PoC for a watchdog](https://github.com/imperdin/Auto-Restart-Rig) I made that is really reliable and managed my rigs 24/7 without failing  
 You can use my [PPT](https://raw.githubusercontent.com/imperdin/GPU-Configs/master/Vega56.reg) at your own risk
