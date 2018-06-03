@@ -77,7 +77,7 @@ xmr-stak --noCPU --noNVIDIA --amd amdwarm.txt
 
 After using both parts 1 & 2 you should find youself wondering what's the H/s like
 So without further optimizing the 1409@905 & 950%900 on a V56 you should see ~1500 H/s on a V56
-~1550 H/s on a V64 and ~1800 H/s on FE (With the Compute switch)
+~1550 H/s on a V64 and ~2300 H/s on FE (With the Compute switch)
 
 
 The thing is that both V64 and FE can mine better on the tighter V56 strap while freeing the mv to really boost the core clock
