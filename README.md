@@ -97,3 +97,5 @@ to cover most of the optimization that the "Secret Optimizers" have already done
 Optional,
 I have a [PoC for a watchdog](https://github.com/imperdin/Auto-Restart-Rig) I made that is really reliable and managed my rigs 24/7 without failing  
 You can use my [PPT for V56](https://raw.githubusercontent.com/imperdin/GPU-Configs/master/Vega56.reg) at your own risk
+
+As noted by (Bry Guy#8913) using NVMe PCIe M.2 allow to gain a 3-4% boost when using Vegas with only 4GB ram due to page file bottlenecks e.g [Samsung 970 Evo](https://www.amazon.com/Samsung-970-EVO-250GB-MZ-V7E250BW/dp/B07BN5FJZQ)
