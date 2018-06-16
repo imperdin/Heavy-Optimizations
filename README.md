@@ -13,7 +13,7 @@ Step #2 another easy 3-4% efficiency tweak (on V56/V64) is to "optimiz"e the mem
 How it's done, first you initialize a foreplay miner for 15s to warm up the HBM for the miner, it can be done using one of the two options
 
 
-A) Easy, use Cast-xmr --maxmem option to mine for 30 seconds at your pool of choice
+A) Easy, use Cast-xmr --intensity 10 option to mine for 30 seconds at your pool of choice
 
 
 B) Medium, use a diffrent Heavy amd mining config calld warm.txt with the following threads for warm (V56 & V64)
