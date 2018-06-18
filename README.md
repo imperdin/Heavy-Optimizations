@@ -5,7 +5,7 @@ So the goal of this publication is to inform you of the improvement and modifica
 First things fist, one of the bottle necks in Heavy is the core more than the HBM (As we currently don't have any public tool that unlocks the straps) and allow Vegas to break the 4 KH/s barrier
 
 
-How to do so, the easy H/s boost on Vega is to lower the watt draw first which is the V56 Bios that have the tighter straps and lower watts for the HBM that allows the vega to shift more power to the core at the same watt draw,
+How to do so, the easy H/s boost on Vega 64 is to lower the watt draw first which is the V56 Bios that have the tighter straps and lower watts for the HBM that allows the vega to shift more power to the core at the same watt draw,
 so this is goal #1 if you don't have a V56 is to get the V56 Bios and flash into it (Do so at your own risk)
 
 
