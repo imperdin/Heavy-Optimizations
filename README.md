@@ -9,7 +9,7 @@ How to do so, the easy H/s boost on Vega 64 is to lower the watt draw first whic
 so this is goal #1 if you don't have a V56 is to get the V56 Bios and flash into it (Do so at your own risk)
 
 
-Step #2 another easy 3-4% efficiency tweak (on V56/V64) is to "optimiz"e the memory a little bit, which can be done by a technique I called foreplay
+Step #2 another easy 3-4% efficiency tweak (on V56/V64) is to "optimize" the memory a little bit, which can be done by a technique I called foreplay
 How it's done, first you initialize a foreplay miner for 15s to warm up the HBM for the miner, it can be done using one of the two options
 
 
