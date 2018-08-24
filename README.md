@@ -1,7 +1,3 @@
-# Heavy-Optimizations Draft
-As most of you know FireIce did a really hasty job of preparing everyone to the Heavy fork which gave a lot of leeway to "**Secret Optimizations**
-So the goal of this publication is to inform you of the improvement and modifications I did in my optmized Stak version to give you that H/s so we could minize the damages from "Secret Optimizations"
-
 First things fist, one of the bottle necks in Heavy is the core more than the HBM (As we currently don't have any public tool that unlocks the straps) and allow Vegas to break the 4 KH/s barrier
 
 
